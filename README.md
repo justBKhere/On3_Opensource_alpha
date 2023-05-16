@@ -1,8 +1,22 @@
-# On3_Opensource_alpha
-This repository handles most of the Solana related actions in the backend, This is to provide educational value. Some features of On3 are private and not included to ensure security of the users opting the service. (Authentications, DBMS, Encryptions, Payments Etc)
+# On3 Solana Backend Repository
 
+Welcome to the On3 Solana Backend Repository! This repository serves as a comprehensive resource for developers interested in building applications and services on the Solana blockchain. It focuses on providing educational value by showcasing various Solana-related actions in the backend.
 
-This repository will be updated frequently as on when new modules of solana are added, Happy learning and building. If any questions please join our discord - https://discord.gg/4933EbdsRf, we are setting up exclusive channel for developers who want to build on solana and if interested be the part of VORLD. where we will be creating infra tools for game and app development and also provide most of them as open source modules for the devs to build on. 
+## Features and Security
+
+Please note that while this repository covers a wide range of Solana-related actions, certain features of On3, such as authentications, DBMS, encryptions, and payments, are excluded to prioritize the security and privacy of our users. These features involve sensitive operations and are kept private to ensure the utmost protection.
+
+## Updates and Learning
+
+We are committed to keeping this repository up to date by continuously adding new Solana modules and functionalities. We encourage you to explore the code, learn from it, and leverage the knowledge gained to build innovative applications on the Solana blockchain.
+
+## Join our Discord Community
+
+For further assistance or if you have any questions, we invite you to join our Discord community at [https://discord.gg/4933EbdsRf](https://discord.gg/4933EbdsRf). We have set up an exclusive channel for developers interested in building on Solana and becoming part of the VORLD community.
+
+In addition to providing a platform for discussion and collaboration, we will be creating infrastructure tools for game and app development. Many of these tools will be shared as open-source modules, enabling developers to leverage them in their own projects.
+
+Happy learning and building! Let's together unleash the potential of Solana and drive innovation in the decentralized ecosystem.
 
 
 

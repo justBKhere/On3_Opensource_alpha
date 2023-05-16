@@ -3,10 +3,12 @@ const RPC_ENDPOINTS = require('./Constants/solana_contants');
 const web3 = require('@solana/web3.js');
 
 
-/**This code defines a function that takes an endpointNumber as input.
- *It checks if the RPC_ENDPOINTS array has an element with the index endpointNumber. 
- If it does, it selects that element, logs the selection, and then passes it as an argument to the connectToEndpoint function.
-  Otherwise, it logs an error message saying that the endpoint selection is invalid. */
+/**
+ * Selects an endpoint based on the given endpoint number.
+ *
+ * @param {number} endpointNumber - The endpoint number to select.
+ * @return {undefined} This function does not return a value.
+ */
 
 function selectEndpoint(endpointNumber) {
     if (RPC_ENDPOINTS[endpointNumber]) {
@@ -17,6 +19,16 @@ function selectEndpoint(endpointNumber) {
         console.log('Invalid endpoint selection.');
     }
 }
+
+
+/**
+ * Connects to a given Solana endpoint URL and logs the network version.
+ *
+ * @async
+ * @param {string} endpointURL - The URL of the Solana endpoint to connect to.
+ * @returns {Promise<void>} - Returns nothing.
+ * @throws {Error} - If an error occurs while connecting to Solana.
+ */
 
 async function connectToEndpoint(endpointURL) {
     try {
